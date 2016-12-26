@@ -21,7 +21,6 @@ describe('Rozetka test suite', function() {
         $('[name=plus]').click();
       })
 
-
       expect(elemen(by.css('div.cart-i-price>span.cart-uah')).getText()).
         toMatсh(/69/);
     });
