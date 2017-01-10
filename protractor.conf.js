@@ -11,7 +11,7 @@ exports.config = {
     'browserName': 'chrome'
   },
 
-  baseUrl: 'http://rozetka.com.ua/',
+  baseUrl: 'http://localhost:3000/',
 
   framework: 'jasmine',
 
